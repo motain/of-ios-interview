@@ -1,4 +1,4 @@
-# Election Winner
+# Election Counter
 
 # ⚠️ Information for candidates: We will be pair programming during the interview. Please pay attention to the following:
 
