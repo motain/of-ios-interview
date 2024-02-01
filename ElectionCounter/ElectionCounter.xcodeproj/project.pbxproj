@@ -11,6 +11,7 @@
 		DE5E03D82B6BD59D007960AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E03D72B6BD59D007960AA /* ContentView.swift */; };
 		DE5E03DA2B6BD59F007960AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5E03D92B6BD59F007960AA /* Assets.xcassets */; };
 		DE5E03DD2B6BD59F007960AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5E03DC2B6BD59F007960AA /* Preview Assets.xcassets */; };
+		DE5E03E52B6BD658007960AA /* ElectionResultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E03E42B6BD658007960AA /* ElectionResultService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DE5E03D72B6BD59D007960AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE5E03D92B6BD59F007960AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5E03DC2B6BD59F007960AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE5E03E42B6BD658007960AA /* ElectionResultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionResultService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DE5E03D42B6BD59D007960AA /* ElectionCounter */ = {
 			isa = PBXGroup;
 			children = (
+				DE5E03E32B6BD646007960AA /* Services */,
 				DE5E03D52B6BD59D007960AA /* ElectionCounterApp.swift */,
 				DE5E03D72B6BD59D007960AA /* ContentView.swift */,
 				DE5E03D92B6BD59F007960AA /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DE5E03DC2B6BD59F007960AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE5E03E32B6BD646007960AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DE5E03E42B6BD658007960AA /* ElectionResultService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DE5E03D82B6BD59D007960AA /* ContentView.swift in Sources */,
 				DE5E03D62B6BD59D007960AA /* ElectionCounterApp.swift in Sources */,
+				DE5E03E52B6BD658007960AA /* ElectionResultService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
