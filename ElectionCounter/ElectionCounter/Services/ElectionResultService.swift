@@ -1,15 +1,13 @@
-//
-//  ElectionResultService.swift
-//  ElectionCounter
-//
-//  Created by Bruno Pastre on 01.02.24.
-//
-
 import Foundation
 
-// This URL is not part of the interview
+// This URL is not part of the interview. Feel free to mock if required
 private let endpointUrl = URL(string: "https://mock-json.com/my-mock")!
-
+/*
+Sample response from the API:
+{
+    "votes": "Ronaldo Messi Mbappe Ronaldo"
+}
+*/
 class ElectionResult {
     var stringResult: String?
     init(_ dictionary: [String: Any]) {
