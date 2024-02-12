@@ -20,8 +20,7 @@ The idea here is to create a component that will solve the algorithmic problem
 
 ### Second step - Fetching the election results from an API
 
-Here we will fetch the election results from a service component which is already implemented at [Sources/ElectionResultService.swift](../ElectionCounter/ElectionCounter/Services//ElectionResultService.swift)
-. We will be refactoring the component before we start using it
+Here we will fetch the election results from a service component which is already implemented at [Sources/ElectionResultService.swift](https://github.com/motain/of-ios-interview/blob/main/ElectionCounter/ElectionCounter/Services/ElectionResultService.swift). We will be refactoring the component before we start using it.
 
 ### Third step - Displaying the results on the screen
 
