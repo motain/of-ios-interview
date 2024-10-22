@@ -21,6 +21,7 @@
 		DE5E03D92B6BD59F007960AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5E03DC2B6BD59F007960AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE5E03E42B6BD658007960AA /* ElectionResultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionResultService.swift; sourceTree = "<group>"; };
+		DECB056E2CC7E930000171F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 		DE5E03C92B6BD59D007960AA = {
 			isa = PBXGroup;
 			children = (
+				DECB056E2CC7E930000171F3 /* README.md */,
 				DE5E03D42B6BD59D007960AA /* ElectionCounter */,
 				DE5E03D32B6BD59D007960AA /* Products */,
 			);
