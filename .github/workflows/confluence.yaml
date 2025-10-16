@@ -1,0 +1,24 @@
+name: Sync Docs to Confluence
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'docs/**'
+      - 'README.md'
+      - '.github/workflows/confluence.yaml'
+      - 'mkdocs.yml'
+      - 'mkdocs.yaml'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: [ self-hosted, linux, x64, core-team-only ]
+    steps:
+      - name: Run Confluence Sync
+        uses: motain/onefootball-actions/confluence-docs@master
+        with:
+          confluence-api-token: ${{ secrets.CONFLUENCE_API_TOKEN }}
+          slack-token: ${{ secrets.CONTINUOUS_DELIVERY_APP_SLACK_TOKEN }}
